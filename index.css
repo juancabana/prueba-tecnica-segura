@@ -124,21 +124,22 @@ body {
   display: none;
 }
 
-#label-burger {
+#button-burger {
   width: 100%;
   height: 100%;
   background-image: url(./assets/img/lines_menu_burger_icon_123889.png);
   background-size: cover;
+  border: none;
 }
 
-header label {
+header button {
   display: none;
   width: 30px;
   height: 30px;
   padding: 10px;
 }
 
-header label:hover {
+header button:hover {
   cursor: pointer;
 }
 
@@ -153,10 +154,10 @@ header label:hover {
   }
   .nav-logo {
     justify-content: space-between;
-    justify-content: center;
+    /* justify-content: center; */
     width: 100%;
   }
-  #label-burger {
+  #button-burger {
     display: block;
     width: 30px;
     height: 30px;
@@ -375,8 +376,10 @@ li {
   text-align: center;
   font-size: 18px;
   margin: 0%;
+  margin-top: 4px;
   color: #4e5960;
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
   letter-spacing: 0px;
 }
 
@@ -430,7 +433,7 @@ li {
 }
 
 .content-target {
-  padding-top: 28px;
+  padding-top: 30px;
   width: 250px;
   background-color: #ffffff;
 }
@@ -457,8 +460,8 @@ li {
   align-items: center;
   border-radius: 15px;
   height: 23px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
   font-size: 10px;
   color: #ffffff;
   background-color: #ff6d00;
@@ -468,6 +471,7 @@ li {
 }
 .content-description-target {
   margin: 0%;
+  line-height: 22px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #4d575f;
@@ -773,6 +777,9 @@ li {
 }
 
 @media (max-width: 1400px) {
+  #ul-navbar{
+    display: none;
+  }
   .image-card {
     margin-top: 20px;
   }
@@ -808,6 +815,7 @@ li {
     color: #261f99;
   }
   .content-description-target{
+
     color: #06121b;
   }
   .list-actions{
