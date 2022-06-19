@@ -392,7 +392,7 @@ li {
   height: 100%;
 }
 #link-news{
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .list-slider {
@@ -792,7 +792,7 @@ li {
   background-size: cover;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1064px) {
   #ul-navbar{
     display: none;
   }
