@@ -207,7 +207,7 @@ header button:hover {
 }
 @media (max-width: 500px) {
   .container-slider{
-    height: 200px;
+    height: 150px;
     margin-bottom: 30px;
   }
   .links-navbar-footer{
@@ -647,7 +647,7 @@ li {
 }
 
 .container-content-our-services {
-  max-width: 1200px;
+  width: 100%;
   /* min-height: 535px; */
   background-color: #ffffff;
   padding-left: 75px;
@@ -687,7 +687,7 @@ li {
 }
 .wrapper-content-container {
   display: grid;
-  height: 400px;
+  height: auto;
   grid-template-columns: 50% 50%;
 }
 
@@ -827,6 +827,17 @@ li {
   }
   .wrapper-options-container{
     gap: 30px;
+  }
+  .wrapper-content-container{
+    height: auto;
+  }
+  .container-content-our-services{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+    border-radius: 25px 25px 0px 0px;
   }
 }
 

@@ -44,20 +44,16 @@ btnLeft.addEventListener("click", function () {
 
 
 
-// let miCheckbox = document.getElementById("btn-menu");
-// let ul_navbar = document.getElementById("ul-navbar");
-// miCheckbox.addEventListener("click", function () {
+let myButton = document.getElementById("btn-menu");
+let ul_navbar = document.getElementById("ul-navbar");
 
 
+function display_ul_navbar() {
+  
+  if (ul_navbar.style.display === "none") {
+    ul_navbar.style.display = "block";
+  } else {
+    ul_navbar.style.display = "none";
 
-//   if (miCheckbox.checked) {
-//     ul_navbar.style.display = "block";
-//   } else {
-//     ul_navbar.style.display = "none";
-
-//   }
-// });
-
-// anchoVentana = window.innerWidth;
-// console.log(anchoVentana)
-
+  }
+}
