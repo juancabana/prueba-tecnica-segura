@@ -50,10 +50,10 @@ let ul_navbar = document.getElementById("ul-navbar");
 
 function display_ul_navbar() {
   
-  if (ul_navbar.style.display === "none") {
-    ul_navbar.style.display = "block";
-  } else {
+  if (ul_navbar.style.display === "block") {
     ul_navbar.style.display = "none";
+  } else {
+    ul_navbar.style.display = "block";
 
   }
 }

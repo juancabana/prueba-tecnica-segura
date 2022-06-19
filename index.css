@@ -838,7 +838,7 @@ li {
     column-gap: 25px;
   }
   .list-slider{
-    gap: 50px;
+    gap: 30px;
   }
   .wrapper-options-container{
     gap: 30px;
@@ -854,6 +854,13 @@ li {
     padding-right: 25px;
     margin-bottom: 20px;
     border-radius: 0px 0px 0px 0px;
+  }
+  #btn-left{
+    left: 10px;
+  }
+  #btn-right{
+    right: 10px;
+
   }
 }
 
