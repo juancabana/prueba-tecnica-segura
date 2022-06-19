@@ -844,6 +844,8 @@ li {
     gap: 30px;
   }
   .wrapper-content-container{
+    display: flex;
+    flex-direction: column-reverse;
     height: auto;
   }
   .container-content-our-services{
