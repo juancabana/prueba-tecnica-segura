@@ -749,7 +749,7 @@ li {
     background-image: none;
   }
   .description-services {
-    color: #21d0b9;
+    color: #aecdd2;
   }
   .item-service {
     width: 80px;
@@ -816,17 +816,7 @@ li {
     margin-bottom: 0%;
 
     position: inherit;
-  }
-
-
-
-
-
-
-
-
-
-  
+  }  
   .nav-bar {
     height: auto;
   }
@@ -862,6 +852,9 @@ li {
   }
   .wrapper-sponsors {
     row-gap: 15px;
+  }
+  .wrapper-items-services{
+    margin-bottom: 30px;
   }
 }
 
