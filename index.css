@@ -53,6 +53,7 @@ body {
 
 #ul-navbar {
   margin: 0%;
+  margin-top: 5px;
   padding: 0%;
   display: flex;
   justify-content: space-between;
@@ -265,7 +266,7 @@ li {
   list-style-type: none;
 }
 .item-action {
-  width: 80px;
+  width: 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -273,7 +274,7 @@ li {
 }
 
 .wrapper-actions {
-  padding-top: 10px;
+  padding-top: 18px;
   display: flex;
   align-items: center;
   min-height: 195px;
@@ -286,14 +287,46 @@ li {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  background: linear-gradient(#ffab0b, #ff6d00);
+}
+.image-item-action-portal-transaccional{
+  background-image: url(./assets/img/ListActions/Imagen-portal-transaccional.png);
+  background-size: cover;
+}
+.image-item-action-sucursal-virtual{
+  background-image: url(./assets/img/ListActions/Imagen-sucursal-virtual.png);
+  background-size: cover;
+}
+.image-item-action-credito-en-linea{
+  background-image: url(./assets/img/ListActions/Imagen-crédito-en-línea.png);
+  background-size: cover;
+}
+.image-item-action-simulador-de-ahorros{
+  background-image: url(./assets/img/ListActions/Imagen-simulador-de-ahorro.png);
+  background-size: cover;
+}
+.image-item-action-simulador-de-crédito{
+  background-image: url(./assets/img/ListActions/Imagen-simulador-de-crédito.png);
+  background-size: cover;
+}
+.image-item-action-red-de-aliados{
+  background-image: url(./assets/img/ListActions/Imagen-red-de-aliados.png);
+  background-size: cover;
+}
+.image-item-action-como-asociarme{
+  background-image: url(./assets/img/ListActions/Imagen-como-asociarme.png);
+  background-size: cover;
+}
+.image-item-action-formulario-pqrsf{
+  background-image: url(./assets/img/ListActions/Imagen-formulario-pqrs.png);
+  background-size: cover;
 }
 
 .text-item-action {
+  width: 118px;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 600;
   margin: 0%;
   margin-top: 15px;
 }
