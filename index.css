@@ -184,16 +184,14 @@ header button:hover {
     align-items: center;
     justify-content: center;
   }
-/* _________________________________________________________- */
-  .content-footer{
+  /* _________________________________________________________- */
+  .content-footer {
     height: 100px;
   }
-  .wrapper-sponsors{
+  .wrapper-sponsors {
     row-gap: 15px;
   }
-
 }
-
 
 /* Slider  */
 
@@ -206,11 +204,11 @@ header button:hover {
   overflow: hidden;
 }
 @media (max-width: 500px) {
-  .container-slider{
+  .container-slider {
     height: 150px;
     margin-bottom: 30px;
   }
-  .links-navbar-footer{
+  .links-navbar-footer {
     margin-top: 30px;
   }
 }
@@ -289,35 +287,35 @@ li {
   height: 58px;
   border-radius: 50%;
 }
-.image-item-action-portal-transaccional{
+.image-item-action-portal-transaccional {
   background-image: url(./assets/img/ListActions/Imagen-portal-transaccional.png);
   background-size: cover;
 }
-.image-item-action-sucursal-virtual{
+.image-item-action-sucursal-virtual {
   background-image: url(./assets/img/ListActions/Imagen-sucursal-virtual.png);
   background-size: cover;
 }
-.image-item-action-credito-en-linea{
+.image-item-action-credito-en-linea {
   background-image: url(./assets/img/ListActions/Imagen-crédito-en-línea.png);
   background-size: cover;
 }
-.image-item-action-simulador-de-ahorros{
+.image-item-action-simulador-de-ahorros {
   background-image: url(./assets/img/ListActions/Imagen-simulador-de-ahorro.png);
   background-size: cover;
 }
-.image-item-action-simulador-de-crédito{
+.image-item-action-simulador-de-crédito {
   background-image: url(./assets/img/ListActions/Imagen-simulador-de-crédito.png);
   background-size: cover;
 }
-.image-item-action-red-de-aliados{
+.image-item-action-red-de-aliados {
   background-image: url(./assets/img/ListActions/Imagen-red-de-aliados.png);
   background-size: cover;
 }
-.image-item-action-como-asociarme{
+.image-item-action-como-asociarme {
   background-image: url(./assets/img/ListActions/Imagen-como-asociarme.png);
   background-size: cover;
 }
-.image-item-action-formulario-pqrsf{
+.image-item-action-formulario-pqrsf {
   background-image: url(./assets/img/ListActions/Imagen-formulario-pqrs.png);
   background-size: cover;
 }
@@ -384,6 +382,7 @@ li {
 }
 
 .slider-news {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -391,17 +390,18 @@ li {
   width: 100%;
   height: 100%;
 }
-#link-news{
+#link-news {
   margin-bottom: 15px;
 }
 
 .list-slider {
-  gap: 80px;
+  gap: 82px;
   margin: 0%;
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   max-width: 1050px;
+  min-height: 570px;
   justify-content: space-between;
   justify-content: center;
 
@@ -471,28 +471,31 @@ li {
 }
 .content-description-target {
   margin: 0%;
+  margin-top: 7px;
   line-height: 22px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #4d575f;
-  font-size: 19px;
+  font-size: 18px;
   text-overflow: clip;
 }
 
 .footer-news-section {
   max-width: 1050px;
   display: flex;
+  position: absolute;
   flex-wrap: wrap;
   row-gap: 15px;
-  column-gap: 200px;
+  column-gap: 205px;
 
   justify-content: space-between;
   justify-content: center;
-  margin-top: 15px;
+  /* margin-top: 30px; */
+  margin-bottom: 25px;
   width: 100%;
-  min-height: 85px;
+  min-height: 80px;
+  bottom: 0px;
 }
-
 
 .wrapper-indicators {
   margin-top: 10px;
@@ -510,7 +513,8 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #4d575f;
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .dots {
@@ -523,6 +527,7 @@ li {
   display: flex;
   align-items: center;
   height: 50px;
+  width: 291px;
   background: linear-gradient(to bottom right, #d6e8c2, #b3d9c7);
   border-radius: 50px;
   padding-left: 20px;
@@ -649,7 +654,7 @@ li {
 
 .container-content-our-services {
   max-width: 1200px;
-  /* min-height: 535px; */
+  min-height: 550px;
   background-color: #ffffff;
   padding-left: 75px;
   padding-right: 75px;
@@ -658,7 +663,7 @@ li {
   margin: 0%;
   margin-top: 15px;
   overflow: hidden;
-  margin-bottom: 95px;
+  margin-bottom: 58px;
 }
 
 .wrapper-title-container-services {
@@ -738,14 +743,14 @@ li {
   font-size: 18px;
   letter-spacing: 1px;
 }
-#carousel-indicators{
+#carousel-indicators {
   column-gap: 10px;
   position: initial;
   margin-bottom: 0%;
   margin-top: 1rem;
   margin-bottom: 20px;
 }
-#button-carousel-indicators{
+#button-carousel-indicators {
   border-radius: 50%;
   margin: 0%;
   height: 10px;
@@ -787,69 +792,69 @@ li {
   justify-content: space-between;
   width: 310px;
   height: 195px;
-  border-radius: 25px;
+  border-radius: 30px;
   /* filter: brightness(0.8); */
   background-size: cover;
 }
 
 @media (max-width: 1064px) {
-  #ul-navbar{
+  #ul-navbar {
     display: none;
   }
   .image-card {
     margin-top: 20px;
   }
-  .other-options{
+  .other-options {
     row-gap: 10px;
   }
-  .links-navbar-footer{
+  .links-navbar-footer {
     margin-top: 30px;
   }
-  .content-footer{
+  .content-footer {
     row-gap: 15px;
   }
-  .our-services{
+  .our-services {
     background-color: #3a4545;
     background-image: none;
   }
-  .description-services  {
+  .description-services {
     color: #21d0b9;
   }
-  .item-service{
+  .item-service {
     width: 80px;
   }
-  .news{
+  .news {
     margin-top: 20px;
   }
-  .news, .content-target{
+  .news,
+  .content-target {
     background-color: #f3f9f8;
   }
-  .title-news{
+  .title-news {
     color: rgb(20 35 75);
   }
-  .date-target{
+  .date-target {
     color: #261f99;
   }
-  .content-description-target{
-
+  .content-description-target {
     color: #06121b;
   }
-  .list-actions{
+  .list-actions {
     row-gap: 20px;
     column-gap: 25px;
   }
-  .list-slider{
+  .list-slider {
     gap: 30px;
   }
-  .wrapper-options-container{
+  .wrapper-options-container {
     gap: 30px;
   }
-  .wrapper-content-container{
+  .wrapper-content-container {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
   }
-  .container-content-our-services{
+  .container-content-our-services {
     display: flex;
     flex-direction: column;
     max-width: calc(100% - 25px -25px);
@@ -858,14 +863,13 @@ li {
     margin-bottom: 20px;
     border-radius: 0px 0px 0px 0px;
   }
-  #btn-left{
+  #btn-left {
     left: 10px;
   }
-  #btn-right{
+  #btn-right {
     right: 10px;
-
   }
-  .container-advertising{
+  .container-advertising {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
@@ -972,7 +976,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   height: auto;
-  margin-top: 45px;
+  margin-top: 55px;
 }
 .img-logo-footer {
   width: 50px;
